@@ -1,8 +1,11 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* font-family: Tahoma, sans-serif; */
+}
+html{
+  margin: 0 !important;
 }
 body {
   background-color: #000;
@@ -101,12 +104,79 @@ body {
 .module span {
   color: #1c80c0;
 }
-.module:hover{
-    background-color: #0d3752;
+.module:hover {
+  background-color: #0d3752;
+}
+[alt="Logotipo Trilha de CSS DIO"] {
+  width: 55%;
 }
 /* ---------------------------------------------------- */
-#transform-world{}
+#transform-world {
+  min-height: 60vh;
+  border-bottom: #1c80c0 1px solid;
+  background-image: url("../assets/images/woman-code.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
 
+.transform-world-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#transform-world p {
+  color: #fff;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  font-weight: bold;
+  text-shadow: 3px 3px 0 #1c80c0;
+}
 
 /* ---------------------------------------------------- */
-#professional-challenges{}
+#professional-challenges {
+  text-align: center;
+  border-bottom: #1c80c0 1px solid;
+}
+#professional-challenges h2 {
+  color: #1c80c0;
+  font-size: 2.5rem;
+  margin: 100px 0 60px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.professional-challenges-p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#professional-challenges p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100 !important;
+  margin: 50px 0 70px 0;
+  line-height: 1;
+}
+/* ---------------------------------------------------- */
+footer {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 79%,
+    rgba(49, 168, 221, 0.2) 100%
+  );
+  margin: 0;
+  padding: 0;
+}
+footer p {
+  color: #fff;
+}
+.link-dio {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1c80c0;
+}
